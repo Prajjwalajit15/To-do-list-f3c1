@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>To-Do List App</title>
+</head>
+<body>
+    <div class="header"><img src="./assets/Logo (1).png" alt="img"></div>
+
+    <div class="container">
+        <form  id="taskForm">
+            <label for="taskName"></label>
+            <input type="text" id="taskName" placeholder="Enter Your To-do List Task" required>
+            <button type="submit" class="centered-button"> 
+                <span class="button-text">Add</span>
+                <span class="material-symbols-outlined plus">add_circle</span>
+            </button>
+        </form>
+
+        <div id="task-info">
+            <span class="to-do-list">To-Do List <span class="count todo-count">0</span></span>
+            <span class="high-priority">High Priority <span class="count high-priority-count">0</span></span>
+        </div>
+        <div class="task-list">
+            <img src="./assets/Clipboard.png" alt="img">
+            <div>You have no To-do Items As of now</div>
+        </div>
+     
+    <div class="footer">
+        <span class="Started">Started <span class="count">0</span></span>
+        <span class="high-priority-1">High Priority <span class="count">0</span></span>
+    </div>
+    <div class="footer">
+        <span class="Completed">Started<span class="count">10</span></span>
+        <span class="high-priority-1">High Priority<span class="count">5</span></span>
+    </div>
+    <!-- <div class="current-task">
+        <span  class="radio-container"><label>
+            <input type="checkbox"> 
+        </label>
+        </span> 
+        <span class="task-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, excepturi ullam quibusdam fugit perspiciatis facilis sed laborum, iure debitis et totam, saepe facere ex ducimus veritatis placeat officiis. Placeat, eveniet.</span>
+        <span class="material-symbols-outlined">
+            delete
+            </span>
+    </div> -->
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
